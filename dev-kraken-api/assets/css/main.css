@@ -1,0 +1,264 @@
+/* Dev Kraken Font Start */
+/* Weight 300 */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-Light.eot');
+    src: local('DIN Next Stencil Light'), local('DINNextStencil-Light'),
+        url('../devkrakenfont/DINNextStencil-Light.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-Light.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-Light.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+/* Weight Bold */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-Bold.eot');
+    src: local('DIN Next Stencil Bold'), local('DINNextStencil-Bold'),
+        url('../devkrakenfont/DINNextStencil-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-Bold.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-Bold.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* Weight Normal */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-Regular.eot');
+    src: local('DIN Next Stencil'), local('DINNextStencil-Regular'),
+        url('../devkrakenfont/DINNextStencil-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-Regular.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-Regular.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Weight 200 */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-UltraLight.eot');
+    src: local('DIN Next Stencil UltraLight'), local('DINNextStencil-UltraLight'),
+        url('../devkrakenfont/DINNextStencil-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-UltraLight.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-UltraLight.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+/* Weight 900 */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-Heavy.eot');
+    src: local('DIN Next Stencil Heavy'), local('DINNextStencil-Heavy'),
+        url('../devkrakenfont/DINNextStencil-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-Heavy.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-Heavy.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+/* Weight 900 */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-Black.eot');
+    src: local('DIN Next Stencil Black'), local('DINNextStencil-Black'),
+        url('../devkrakenfont/DINNextStencil-Black.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-Black.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-Black.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+/* Weight 500 */
+@font-face {
+    font-family: 'DIN Next Stencil';
+    src: url('../devkrakenfont/DINNextStencil-Medium.eot');
+    src: local('DIN Next Stencil Medium'), local('DINNextStencil-Medium'),
+        url('../devkrakenfont/DINNextStencil-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../devkrakenfont/DINNextStencil-Medium.woff2') format('woff2'),
+        url('../devkrakenfont/DINNextStencil-Medium.woff') format('woff'),
+        url('../devkrakenfont/DINNextStencil-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+/* Dev Kraken Font End */
+
+/* Google Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* end  */
+
+
+/* Dsshboard Header  */
+.plugindash_header {
+    display: inline-flex;
+    padding: 20px 5px;
+}
+
+/* Plugin Dashboard Header Logo */
+.api_img {
+    width: 70px;
+    height: fit-content;
+}
+
+/* Dashboard Header Text  */
+.wht_api {
+    font-family: 'DIN Next Stencil';
+    font-weight: 600;
+    font-style: normal;
+    background: -webkit-linear-gradient(#1bebc9, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin-left: 10px;
+    line-height: 1;
+    
+}
+
+/* Api info PARAGRAPH */
+.wht_apiinfo {
+    width: 100%;
+}
+.wht_apiinfo .para {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    width: 95vmin;
+    display: block;
+}
+
+/* Link API heading */
+.your_api_link{
+    font-family: 'DIN Next Stencil';
+    font-weight: 600;
+    font-style: normal;
+    background: -webkit-linear-gradient(#1bebc9, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+
+/* API URL  */
+.apiurl {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+/* Button Copy Link and Text */
+.dev_kraken_button{
+    margin-top: 20px;
+    width: 100%;
+}
+.dev-kraken-btn {
+    border: none;
+    border-radius: 4px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+    overflow: hidden;
+    padding: 20px 70px 20px 65px;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    width: auto;
+    -webkit-transition: background-position .7s,box-shadow .4s;
+    transition: background-position .7s,box-shadow .4s;
+    background-size: 110%;
+    font-family: 'Poppins', sans-serif;
+  }
+ .dev-kraken-btn:hover {
+    background-position: 0% 30%;
+  }
+  .dev-kraken-btn:hover:after{
+    right: -40px;
+    -webkit-transition: right .4s,-webkit-transform 30s .2s linear;
+    transition: right .4s,-webkit-transform 30s .2s linear;
+    transition: right .4s,transform 30s .2s linear;
+    transition: right .4s,transform 30s .2s linear,-webkit-transform 30s .2s linear;
+  }
+  .dev-kraken-btn:before, .dev-kraken-btn:after {
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+  }
+  .dev-kraken-btn:before {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    font-size: 30px;
+    left: 25px;
+    top: 19px;
+  }
+ .dev-kraken-btn:after{
+    -webkit-transition: right .4s, -webkit-transform .2s;
+    transition: right .4s, -webkit-transform .2s;
+    transition: right .4s, transform .2s;
+    transition: right .4s, transform .2s, -webkit-transform .2s;
+    font-size: 100px;
+    opacity: .3;
+    right: -120px;
+    top: -17px;
+  }
+.dev-kraken-btn {
+    /* box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #1bebc9; */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1bebc9), to(rgba(161, 245, 245, 0.24)));
+    background-image: linear-gradient(to bottom, #1bebc9, rgba(10, 161, 161, 0.996));
+  }
+  .dev-kraken-btn:hover:after {
+    -webkit-transform: rotate(3000deg);
+            transform: rotate(3000deg);
+  }
+  .dev-kraken-btn:hover:before {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .dev-kraken-btn:after, .dev-kraken-btn:before {
+    content: "";
+  }
+  .dev-kraken-btn b {
+    color: #ffffff;
+    font-weight: 700;
+  }
+  /* Button End  */
+  
+  /* Button Down Text o copy Change */
+  .copied_txt{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+  }
+
+  /* Powered By Dev Kraken */
+  .footer_dev-kraken {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+}
+  .dev_kraken_logo{
+      width: 50px;
+      height: fit-content;
+      margin-right: 10px;
+  }
+  .dev_kraken_txt{
+    font-family: 'DIN Next Stencil';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+
+.arrow_img {
+    width: 20px;
+}
+
+p {
+    font-weight: 700;
+}
+
+.help_img {
+    width: 1700px;
+}
